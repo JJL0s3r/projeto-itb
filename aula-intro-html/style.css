@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* Resetando alguns estilos padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: "Ubuntu", sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container principal */
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .menu {
+    list-style: none;
+}
+
+header .menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header .menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+
+.h1-menu{
+    color: white;
+}
+
+header .menu a:hover {
+    background-color: #555;
+    color: #cfcfcf;
+}
+
+/* Imagem da fachada */
+.img-faixada {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.img-faixada img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Estilos para os cursos */
+.cursos-tec {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.cursos-tec h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.cursos-tec h2 {
+    font-size: 28px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.cursos-tec p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.cursos-tec a {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cursos-tec a:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para a seção "Informática para Internet" */
+.curso-ini {
+    background-color: #fff;
+    padding: 40px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title-ini {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.text-ini {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.img-programador {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.img-programador img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
